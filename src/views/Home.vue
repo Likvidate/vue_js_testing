@@ -15,8 +15,8 @@ export default {
   },
   data: function () {
     return {
-      title: 'Time till your birthday',
-      message: 'Happy birthday!!!'
+      title: 'Time Left',
+      message: 'YAYYYYY!!!'
     }
   }
 }

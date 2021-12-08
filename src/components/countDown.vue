@@ -3,14 +3,14 @@
     <h1 v-if='!timerDone'>{{timerTitle}}</h1>
     <h1 v-else>{{timerMessage}}</h1>
     <div class="grid-container">
-      <div class="item1">{{displayDays}}</div>
-      <div class="item2">{{displayHours}}</div>
-      <div class="item3">{{displayMinutes}}</div>  
-      <div class="item4">{{displaySeconds}}</div>
-      <div class="item5">Days</div>
-      <div class="item6">Hours</div>
-      <div class="item7">Minutes</div>
-      <div class="item8">Seconds</div>
+      <div>{{displayDays}}</div>
+      <div>{{displayHours}}</div>
+      <div>{{displayMinutes}}</div>  
+      <div>{{displaySeconds}}</div>
+      <div>Days</div>
+      <div>Hours</div>
+      <div>Minutes</div>
+      <div>Seconds</div>
     </div>
   </div>
 </template>
@@ -96,15 +96,16 @@ export default {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 20px 50px;
-  background-color: lightpink;
+  background-color: lightcyan;
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: pink;
+  background-color: cyan;
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
 </style>
 
+--
