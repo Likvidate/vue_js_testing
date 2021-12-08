@@ -1,4 +1,6 @@
-# vue_js_testing
+# Massive timer
+![image](https://user-images.githubusercontent.com/67824760/145277191-43b943ed-87a5-423f-b32b-d9796d2e7000.png)
+
 
 ## Project setup
 ```
